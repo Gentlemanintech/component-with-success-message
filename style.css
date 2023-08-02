@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+
+.container {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px auto 20px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;;
+}
+
+.first {
+    margin: 50px 20px;
+    align-items: center;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: hsl(234, 29%, 20%);
+    margin-left: 15px;
+}
+
+p {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin-left: 15px;
+    color: hsl(235, 18%, 26%);
+}
+
+.list {
+    border: 1px solid red;
+    padding: 0;
+}
+
+ul {
+    align-items: center;
+    list-style-image: url("C:/Users/PC/Desktop/github/Frontend Mentor/component-with-success-message/assets/images/icon-list.svg");
+}
+
+li {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    color: hsl(235, 18%, 26%);
+}
+
+.email-component {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+label {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: hsl(234, 29%, 20%);
+}
+
+input {
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid  hsl(231, 7%, 60%);
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+
+button {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(234, 29%, 20%);
+    color: hsl(0, 0%, 100%);
+}
+
+body {
+    background-color: hsl(235, 18%, 26%);
+}
+
+.footer > p{
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}
+
+a {
+    color: hsl(0, 0%, 100%);
+}
+
+@media (max-width: 414px) {
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
