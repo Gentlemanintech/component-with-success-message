@@ -113,6 +113,10 @@ a {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;;
 }
 
+svg {
+    padding: 10px;
+}
+
 @media (max-width: 414px) {
     body {
         padding: 0;
@@ -143,8 +147,13 @@ a {
     #success-container {
         width: 100%;
         height: 100vh;
+        margin: 0;
         padding: 0;
         border-radius: 0;
+    }
+
+    #dismissBtn {
+        margin-left: 10px;
     }
 
 }
